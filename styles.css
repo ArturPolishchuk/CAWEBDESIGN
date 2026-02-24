@@ -1,0 +1,122 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    background-color: rgb(86, 128, 74);
+    padding: 20px;
+    border-radius: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+nav ul {
+    text-align: center;
+    font-size: 1.2em;
+    
+}
+nav ul li {
+    list-style-type: none;
+    background-color: rgb(186, 186, 186);
+    display: inline;
+    padding: 15px;
+    margin: 0px;
+    border: 2px solid rgb(126, 202, 109);
+    border-radius: 10px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(136, 51, 51);
+    font-size: 2em;
+    padding: 4%;
+}
+nav ul li:hover {
+    background-color: rgb(100, 205, 151);
+}
+#farmDescription
+{
+    color: white;
+    font-family: arial;
+    text-align: justify;
+    padding: 0%;
+    font-size: 1em;
+}
+.FarmHomePic
+{
+    margin: 0 auto; 
+    border: 1px solid rgb(255, 255, 255);
+    padding: 3px; 
+    background-color: white; 
+    display: flex;
+    align-items: center;    
+    width: 50%;
+}
+h1
+{
+    color: rgb(176, 176, 176);
+    text-align: right; 
+    padding: 50px;
+    margin: 0px;
+    background-color: rgb(58, 76, 21);
+}
+h2, h3
+{
+    color: rgb(107, 171, 89);
+    font-family: verdana;
+    text-align: center;
+}
+
+#mainText
+{
+    color: rgb(131, 167, 103);
+    text-align: left;
+    font-family: arial;
+    text-align: justify;
+    font-size: 2em;
+}
+.mainText
+{
+    color: rgb(153, 196, 118);
+    text-align: left;
+    font-family: arial;
+    text-align: justify;
+    font-size: 2em;
+}
+
+.fullWidthContent
+{
+    margin: 0 auto; 
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    font-size: 2em;
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+}
+footer {
+    background-color: rgb(62, 98, 52);
+    text-align: center;
+    padding: 20px;
+    color: rgb(87, 160, 70);
+}
+.hens
+{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+.calfs
+{
+    width: 750px;
+    height: 450px;
+    object-fit: cover;
+    border: 4px dashed rgb(0, 0, 0);
+    border-radius: 0px;
+}
